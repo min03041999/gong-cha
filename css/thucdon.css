@@ -1,0 +1,146 @@
+.thucdon{
+    position: absolute;
+    background: #f0ad4e;
+    margin-left: 60px;
+    margin-top: -20px;
+    z-index: 1;
+    color: #FFF;
+    padding: 10px 20px;
+}
+
+.center-parent {
+    display: flex;
+    justify-content: center;
+  }
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+  }
+  
+  .tabcontent h4{
+    color: #d88006;
+  }
+
+  .center {
+   text-align: center;
+  }
+
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ffffff;
+    background-color: #ffffff00;
+  }
+
+  /* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    color: #d88006;
+    text-decoration: underline;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    color: #d88006;
+    text-decoration: underline;
+  }
+
+  .img-hover{
+    position: relative;
+  }
+  .img-hover:hover > div {
+    visibility: visible;
+    opacity: 1;
+    transition: all .4s;
+  }
+  .img-hover > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+  width: 150px;
+  height: 150px;
+  background-color: #f7b04d;
+  border-radius: 50%;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: all .4s;
+  cursor: pointer;
+ }
+
+ .img-hover > div > div > div:first-child{
+   font-size: 50px;
+ }
+  
+
+ .detail {
+  font-family: "Open Sans";
+  font-weight: inherit;
+   background-color: #d8bc98;
+   box-shadow: inset 0px 1px 28px -5px #b0b0b0;
+   color: #000000;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   padding: 50px 50px 50px 50px;
+ }
+
+ .detail > div > div:last-child{
+  text-align: left;
+  justify-content: left;
+ }
+
+ .detail > div > div > h3{
+   color: #000000;
+ }
+
+ .table-bordered {
+  border: 1px solid #000000;
+}
+
+ .table tr:first-child td {
+   font-size: 16px;
+   color: #f09310;
+ }
+
+ .btn-detail{
+   background: transparent;
+   color: #000000;
+   border: none;
+   outline: none;
+ }
+
+ 
+ .order {
+  /* visibility: hidden;
+  opacity: 0;
+  transition: all .5s;
+  height: 0;
+  overflow: hidden; */
+  display: none;
+ }
+ 
+ .order.active {
+  /* visibility: visible;
+  opacity: 1;
+  transition: all .5s; */
+  display: block;
+ }

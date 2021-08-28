@@ -1,0 +1,151 @@
+.gioithieu{
+    position: absolute;
+    background: #f0ad4e;
+    margin-left: 60px;
+    margin-top: -20px;
+    z-index: 1;
+    color: #FFF;
+    padding: 10px 20px;
+}
+
+.text1 {
+  padding-top: 100px;
+  padding-right: 50px !important;
+  padding-left: 50px !important;
+  padding-bottom: 100px;
+}
+
+
+  
+  .heading-title1 h3 {
+    color: #d88006;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 25px;
+  }
+
+  .heading-title1 h4 {
+    font-size: 20px;
+    font-family:  "Open Sans";
+  }
+
+  .text2 {
+    height: 360px;
+    padding-left: 0px !important;
+  }
+  
+  .heading-title2 {
+    padding-right: 20px;
+    background-size: 40px;
+    height: 60px;
+  }
+    
+    .heading-title2 h3 {
+      color: #d88006;
+      margin-top: 40px;
+      font-size: 30px;
+      font-weight: 200;
+      padding-top: 25px;
+    }
+  
+    .heading-title2 h4 {
+      font-size: 20px;
+      font-family:  "Open Sans";
+    }
+
+  .imgtion{
+    position: absolute;
+    right: 50px;
+    z-index: 10;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    opacity: 0.3;
+    filter: alpha(opacity=50);
+  }
+
+
+  .heading-title3 {
+    padding-right: 20px;
+    background-size: 40px;
+    padding-bottom: 50px;
+  }
+
+  .heading-title3 h3 {
+    color: #d88006;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 25px;
+  }
+
+  .heading-title3 h4 {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 15px;
+    font-family:  "Open Sans";
+  }
+
+.box-icon {
+    padding-top: 55px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: middle;
+    position: relative;
+    -webkit-box-shadow: 3px 3px 9px 1px #d4d4d4;
+    -moz-box-shadow: 3px 3px 9px 1px #e4e4e4;
+    box-shadow: 3px 3px 9px 1px #d4d4d4;
+}
+
+.img-circle
+{
+  display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text4 {
+  height: 150px;
+  padding-right: 50px !important;
+  padding-left: 0px !important;
+  margin-bottom: 100px;
+}
+
+.heading-title4 {
+    padding-left: 55px;
+    padding-right: 50px;
+    background-size: 40px;
+    height: 60px;
+  }
+  
+  .heading-title4 h3 {
+    color: #d88006;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 25px;
+  }
+
+  .heading-title4 span{
+    font-size: 15px;
+    font-weight: bold;
+    color: #e9ac57;
+  }
+
+  .heading-title4 h4 {
+    font-size: 20px;
+    font-family:  "Open Sans";
+  }
+
+
+
+  

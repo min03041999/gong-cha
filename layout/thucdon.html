@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GONG CHA | Thực đơn</title>
+    <link rel="shortcut icon" type="img/ico" href="/Img/logo-gongcha.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!--Font-Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Css-->
+    <link href="/css/trangchu.css" rel="stylesheet">
+    <link href="/css/thucdon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fuild">
+        <nav class="navbar-inverse navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Gong Cha</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/layout/trangchu.html">Trang chủ</a></li>
+                        <li><a href="/layout/gioithieu.html">Giới thiệu</a></li>
+                        <li><a href="/layout/thucdon.html">Thực đơn</a></li>
+                        <li><a href="/layout/tintuc-uudai.html">Tin tức & Ưu đãi</a></li>
+                        <li><a href="/layout/cuahang.html">Cửa hàng</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div>
+        <img src="/Img/banner7.png" class="img-responsive wow fadeInDown" data-wow-duration="1s" width="100%"
+            height="10%" style="margin-top: 90px">
+        <div class="thucdon wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+            style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+            <i class="fa fa-home"> <i class="fa fa-angle-right"></i> Menu</i>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: #f7d3a0">
+        <div class="container-fluid" style="margin: 50px">
+            <div class="tab row center-parent wow fadeInDown" data-wow-offset="200" data-wow-duration="1s">
+                <button class="tablinks" onclick="openCity(event, 'LatteSeries')" id="defaultOpen">Latte Series</button>
+                <button class="tablinks" onclick="openCity(event, 'TraSua')">Trà Sữa</button>
+                <button class="tablinks" onclick="openCity(event, 'TraSuaSangTao')">Trà Sữa Sáng Tạo</button>
+                <button class="tablinks" onclick="openCity(event, 'ThucUongDaXay')">Thức Uống Đá Xay</button>
+                <button class="tablinks" onclick="openCity(event, 'Topping')">Topping</button>
+            </div>
+
+            <div id="LatteSeries" class="tabcontent center">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/LatteSeries/Okinawa.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="okinawa">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Sữa Tươi Okinawa</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.2s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/LatteSeries/Strawberry.png" alt="Strawberry" width="80%">
+                            <div class="openDetails" data-target="strawberry">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Strawberry Earl Grey Latte</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.3s"
+                        style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                        <div class="img-hover">
+                            <img src="/Img/LatteSeries/Mango.png" alt="Mango" width="80%">
+                            <div class="openDetails" data-target="mango">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Mango Matcha Latte</h4>
+                    </div>
+                </div>
+                <div id="okinawa" class="detail order">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right">
+                            <button class="btn-detail"><i class="fa fa-close"></i></button>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="/Img/LatteSeries/Okinawa.png" alt="Okinawa" width="100%">
+                            <i>* Hình ảnh chỉ mang tính chất minh hoạ</i>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Sữa Tươi Okinawa</h2>
+                            <img src="/Img/ico-cold.png" alt="ico-cold">
+                            <h3>Thông tin</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Tên món</td>
+                                        <td>Size</td>
+                                        <td>Giá tiền (VNĐ)</td>
+                                        <td>Lượng đường (g)</td>
+                                        <td>Caffeine</td>
+                                        <td>Calories (Có đường)</td>
+                                        <td>Calories (Không đường)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">Sữa Tươi Okinawa</td>
+                                        <td>M</td>
+                                        <td>51.000</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>59.000</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <i>(*) Thông tin dinh dưỡng chỉ mang tính chất tham khảo.</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="strawberry" class="detail order">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right">
+                            <button class="btn-detail"><i class="fa fa-close"></i></button>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="/Img/LatteSeries/Strawberry.png" alt="Okinawa" width="100%">
+                            <i>* Hình ảnh chỉ mang tính chất minh hoạ</i>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Strawberry Earl Grey Latte</h2>
+                            <img src="/Img/ico-cold.png" alt="ico-cold">
+                            <h3>Thông tin</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Tên món</td>
+                                        <td>Size</td>
+                                        <td>Giá tiền (VNĐ)</td>
+                                        <td>Lượng đường (g)</td>
+                                        <td>Caffeine</td>
+                                        <td>Calories (Có đường)</td>
+                                        <td>Calories (Không đường)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">Strawberry Earl Grey Latte</td>
+                                        <td>M</td>
+                                        <td>57.000</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>65.000</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <i>(*) Thông tin dinh dưỡng chỉ mang tính chất tham khảo.</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mango" class="detail order">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right">
+                            <button class="btn-detail"><i class="fa fa-close"></i></button>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="/Img/LatteSeries/Mango.png" alt="Mango" width="100%">
+                            <i>* Hình ảnh chỉ mang tính chất minh hoạ</i>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Mango Matcha Latte</h2>
+                            <img src="/Img/ico-cold.png" alt="ico-cold">
+                            <h3>Thông tin</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Tên món</td>
+                                        <td>Size</td>
+                                        <td>Giá tiền (VNĐ)</td>
+                                        <td>Lượng đường (g)</td>
+                                        <td>Caffeine</td>
+                                        <td>Calories (Có đường)</td>
+                                        <td>Calories (Không đường)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">Mango Matcha Latte</td>
+                                        <td>M</td>
+                                        <td>57.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>65.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <i>(*) Thông tin dinh dưỡng chỉ mang tính chất tham khảo.</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="0" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/LatteSeries/OkinawaLatte.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="okinawalatte">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Okinawa Latte</h4>
+                    </div>
+                </div>
+
+                <div id="okinawalatte" class="detail order">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right">
+                            <button class="btn-detail"><i class="fa fa-close"></i></button>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="/Img/LatteSeries/OkinawaLatte.png" alt="Okinawa" width="100%">
+                            <i>* Hình ảnh chỉ mang tính chất minh hoạ</i>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Mango Matcha Latte</h2>
+                            <img src="/Img/ico-cold.png" alt="ico-cold">
+                            <h3>Thông tin</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Tên món</td>
+                                        <td>Size</td>
+                                        <td>Giá tiền (VNĐ)</td>
+                                        <td>Lượng đường (g)</td>
+                                        <td>Caffeine</td>
+                                        <td>Calories (Có đường)</td>
+                                        <td>Calories (Không đường)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">Okinawa Latte</td>
+                                        <td>M</td>
+                                        <td>57.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>65.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <i>(*) Thông tin dinh dưỡng chỉ mang tính chất tham khảo.</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="TraSua" class="tabcontent center">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/Milk/OkinawaCoffeeMilkTea.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="okinawacoffee">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Okinawa Coffee Milk Tea</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.2s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/Milk/OkinawaMilkFoamSmoothie.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="okinawamilk">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Okinawa Oreo Cream Milk Tea</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.3s"
+                        style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                        <div class="img-hover">
+                            <img src="/Img/Milk/MangoMilktea.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="mangomilk">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Trà Sữa Xoài Trân Châu Đen</h4>
+                    </div>
+                </div>
+
+                <div id="okinawacoffee" class="detail order">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right">
+                            <button class="btn-detail"><i class="fa fa-close"></i></button>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="/Img/Milk/OkinawaCoffeeMilkTea.png" alt="Okinawa" width="100%">
+                            <i>* Hình ảnh chỉ mang tính chất minh hoạ</i>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Okinawa Coffee Milk Tea</h2>
+                            <img src="/Img/ico-cold.png" alt="ico-cold">
+                            <h3>Thông tin</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Tên món</td>
+                                        <td>Size</td>
+                                        <td>Giá tiền (VNĐ)</td>
+                                        <td>Lượng đường (g)</td>
+                                        <td>Caffeine</td>
+                                        <td>Calories (Có đường)</td>
+                                        <td>Calories (Không đường)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">Okinawa Coffee Milk Tea</td>
+                                        <td>M</td>
+                                        <td>57.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>65.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <i>(*) Thông tin dinh dưỡng chỉ mang tính chất tham khảo.</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="okinawamilk" class="detail order">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right">
+                            <button class="btn-detail"><i class="fa fa-close"></i></button>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="/Img/Milk/OkinawaMilkFoamSmoothie.png" alt="Okinawa" width="100%">
+                            <i>* Hình ảnh chỉ mang tính chất minh hoạ</i>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Okinawa Oreo Cream Milk Tea</h2>
+                            <img src="/Img/ico-cold.png" alt="ico-cold">
+                            <h3>Thông tin</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Tên món</td>
+                                        <td>Size</td>
+                                        <td>Giá tiền (VNĐ)</td>
+                                        <td>Lượng đường (g)</td>
+                                        <td>Caffeine</td>
+                                        <td>Calories (Có đường)</td>
+                                        <td>Calories (Không đường)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">Okinawa Oreo Cream Milk Tea</td>
+                                        <td>M</td>
+                                        <td>57.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>65.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <i>(*) Thông tin dinh dưỡng chỉ mang tính chất tham khảo.</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="mangomilk" class="detail order">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right">
+                            <button class="btn-detail"><i class="fa fa-close"></i></button>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="/Img/Milk/MangoMilktea.png" alt="Okinawa" width="100%">
+                            <i>* Hình ảnh chỉ mang tính chất minh hoạ</i>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Trà Sữa Xoài Trân Châu Đen</h2>
+                            <img src="/Img/ico-cold.png" alt="ico-cold">
+                            <img src="/Img/ico-hot.png" alt="ico-hot">
+                            <h3>Thông tin</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Tên món</td>
+                                        <td>Size</td>
+                                        <td>Giá tiền (VNĐ)</td>
+                                        <td>Lượng đường (g)</td>
+                                        <td>Caffeine</td>
+                                        <td>Calories (Có đường)</td>
+                                        <td>Calories (Không đường)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">Trà Sữa Xoài Trân Châu Đen</td>
+                                        <td>M</td>
+                                        <td>57.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>65.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <i>(*) Thông tin dinh dưỡng chỉ mang tính chất tham khảo.</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/Milk/Okinawa.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="trasuaokinawa">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Trà Sữa Okinawa</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.2s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/Milk/Matcha.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="matchadaudo">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Trà Sữa Matcha Đậu Đỏ</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.3s"
+                        style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                        <div class="img-hover">
+                            <img src="/Img/Milk/Oolong.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="oolong">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Trà sữa Oolong 3J</h4>
+                    </div>
+                </div>
+
+                <div id="trasuaokinawa" class="detail order">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right">
+                            <button class="btn-detail"><i class="fa fa-close"></i></button>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="/Img/Milk/Okinawa.png" alt="Okinawa" width="100%">
+                            <i>* Hình ảnh chỉ mang tính chất minh hoạ</i>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Trà Sữa Okinawa</h2>
+                            <img src="/Img/ico-cold.png" alt="ico-cold">
+                            <img src="/Img/ico-hot.png" alt="ico-hot">
+                            <h3>Thông tin</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Tên món</td>
+                                        <td>Size</td>
+                                        <td>Giá tiền (VNĐ)</td>
+                                        <td>Lượng đường (g)</td>
+                                        <td>Caffeine</td>
+                                        <td>Calories (Có đường)</td>
+                                        <td>Calories (Không đường)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">Trà Sữa Okinawa</td>
+                                        <td>M</td>
+                                        <td>57.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>65.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nóng</td>
+                                        <td>57.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <i>(*) Thông tin dinh dưỡng chỉ mang tính chất tham khảo.</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="matchadaudo" class="detail order">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right">
+                            <button class="btn-detail"><i class="fa fa-close"></i></button>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="/Img/Milk/Matcha.png" alt="Okinawa" width="100%">
+                            <i>* Hình ảnh chỉ mang tính chất minh hoạ</i>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Trà Sữa Matcha Đậu Đỏ</h2>
+                            <img src="/Img/ico-cold.png" alt="ico-cold">
+                            <img src="/Img/ico-hot.png" alt="ico-hot">
+                            <h3>Thông tin</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Tên món</td>
+                                        <td>Size</td>
+                                        <td>Giá tiền (VNĐ)</td>
+                                        <td>Lượng đường (g)</td>
+                                        <td>Caffeine</td>
+                                        <td>Calories (Có đường)</td>
+                                        <td>Calories (Không đường)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">Trà Sữa Matcha Đậu Đỏ</td>
+                                        <td>M</td>
+                                        <td>57.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>65.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Nóng</td>
+                                        <td>57.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <i>(*) Thông tin dinh dưỡng chỉ mang tính chất tham khảo.</i>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="oolong" class="detail order">
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: right">
+                            <button class="btn-detail"><i class="fa fa-close"></i></button>
+                        </div>
+                        <div class="col-md-4">
+                            <img class="img-responsive" src="/Img/Milk/Oolong.png" alt="Okinawa" width="100%">
+                            <i>* Hình ảnh chỉ mang tính chất minh hoạ</i>
+                        </div>
+                        <div class="col-md-8">
+                            <h2>Trà sữa Oolong 3J</h2>
+                            <img src="/Img/ico-cold.png" alt="ico-cold">
+                            <h3>Thông tin</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered">
+                                    <tr>
+                                        <td>Tên món</td>
+                                        <td>Size</td>
+                                        <td>Giá tiền (VNĐ)</td>
+                                        <td>Lượng đường (g)</td>
+                                        <td>Caffeine</td>
+                                        <td>Calories (Có đường)</td>
+                                        <td>Calories (Không đường)</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="3">Trà sữa Oolong 3J</td>
+                                        <td>M</td>
+                                        <td>57.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>L</td>
+                                        <td>65.000</td>
+                                        <td>33.6</td>
+                                        <td>31.1</td>
+                                        <td>209.9</td>
+                                        <td>167.5</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <i>(*) Thông tin dinh dưỡng chỉ mang tính chất tham khảo.</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="TraSuaSangTao" class="tabcontent center">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/SangTao/QQ.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="chanhday">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>QQ Chanh Dây Trà Xanh</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.2s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/SangTao/ChanhAiyu.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="aiyu">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Chanh Ai-yu và Trân Châu Trắng</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.3s"
+                        style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                        <div class="img-hover">
+                            <img src="/Img/SangTao/DaoHong.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="daohong">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Đào Hồng Mận Hạt É</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/SangTao/OolongVai.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="oolongvai">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Trà Oolong Vải</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.2s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/SangTao/Alisan.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="traalisan">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Trà Alisan Vải</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.3s"
+                        style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                        <div class="img-hover">
+                            <img src="/Img/SangTao/AlisanMango.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="alisanmango">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Trà Alisan Xoài</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ThucUongDaXay" class="tabcontent center">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/DaXay/OkinawaMilkFoamSmoothie.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="okinawamilkfoamsmoothie">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Okinawa Milk Foam Smoothie</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.2s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/DaXay/StrawberryOreoSmoothie.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="strawberryoreosmoothie">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Strawberry Oreo Smoothie</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.3s"
+                        style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                        <div class="img-hover">
+                            <img src="/Img/DaXay/Chocolate.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="Chocolatedaxay">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Chocolate Đá Xay</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/DaXay/KhoaiMon.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="khoaimondaxay">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Khoai Môn Đá Xay</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/DaXay/MatchaDaXay.png" alt="Okinawa" width="80%">
+                            <div class="openDetails" data-target="matchadaxay">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Matcha Đá Xay</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Topping" class="tabcontent center">
+                <div class="row" style="padding-top: 60px;">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/TCTrangViDau.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="tctrangvidau">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Trân Châu Trắng Vị Dâu</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.2s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/KemSua.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="kemsua">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Kem Sữa</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.3s"
+                        style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/NhaDam.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="nhadam">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Nha Đam</h4>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 60px;">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/HatE.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="HatE">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Hạt É</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.2s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/TCDen.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="tcden">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Trân Châu Đen</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.3s"
+                        style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/TCTrang.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="tctrang">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Trân Châu Trắng</h4>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 60px;">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/DauDo.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="daudo">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Đậu Đỏ</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.2s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/SuongSao.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="suongsao">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Sương Sáo</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.3s"
+                        style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/ThachTraiCay.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="thachtraicay">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Thạch Trái Cây</h4>
+                    </div>
+                </div>
+                <div class="row" style="padding-top: 60px;">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.1s"
+                        style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/Combo2.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="combo2">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Combo 2 Loại Hạt</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-offset="200" data-wow-delay="0.2s"
+                        style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                        <div class="img-hover">
+                            <img src="/Img/Topping/Combo3.png" alt="Okinawa" width="70%" height="170px">
+                            <div class="openDetails" data-target="combo3">
+                                <div>
+                                    <div>+</div>
+                                    <div>Xem chi tiết</div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Combo 3 Loại Hạt</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-4" style="background-color: #544946; height: 150px;">
+                    <h1>Gong Cha</h1>
+                    <strong>COPYRIGHT © 2021 GONGCHA VIỆT NAM</strong>
+                </div>
+                <div class="col-md-8" style="background-color: #f1f2f2; height: 150px;">
+                    <div class="row">
+                        <div class="col-md-12 wow fadeInLeft" data-wow-delay="0.2s"
+                            style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                            <a href="#">Trang chủ</a>
+                            <a href="#">Giới thiệu</a>
+                            <a href="#">Thực đơn</a>
+                            <a href="#">Tin tức & Ưu đãi</a>
+                            <a href="#">Cửa hàng</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 wow fadeInLeft" data-wow-delay="0.2s"
+                            style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                            <span><i class="fa fa-envelope"></i> info@gongcha.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+
+    <!--Java-->
+    <script src="/java/tab.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        var open = document.querySelectorAll('.openDetails');
+        var close = document.querySelectorAll('.btn-detail');
+        var order = document.querySelectorAll('.order');
+        //var heightOrder = document.querySelectorAll('.order .row');
+
+        open.forEach((item, index) => {
+            item.addEventListener('click', e => {
+                if (!e.target.classList.contains('openDetails')) {
+                    let parent = e.target.parentElement;
+                    if (!parent.classList.contains('openDetails')) {
+                        let parent2 = parent.parentElement;
+                        if (parent2.classList.contains('openDetails')) {
+                            let dataTarget = parent2.getAttribute('data-target');
+                            let idTarget = document.getElementById(dataTarget);
+                            for (let i = 0; i < order.length; i++) {
+                                order[i].classList.remove('active');
+                                // idTarget.style.height = 0;
+                            }
+                            idTarget.classList.add('active');
+                            // let height = heightOrder[index].offsetHeight;
+                            // idTarget.style.height = height+'px';
+                        }
+                    }
+                } else {
+                    let dataTarget = e.target.getAttribute('data-target');
+                    let idTarget = document.getElementById(dataTarget);
+                    
+                    for (let i = 0; i < order.length; i++) {
+                        order[i].classList.remove('active');
+                        //idTarget.style.height = 0;
+                    }
+                    idTarget.classList.add('active');
+                    // let height = heightOrder[index].offsetHeight;
+                    // idTarget.style.height = height+'px';
+                }
+            })
+        })
+
+        close.forEach(item => {
+            item.addEventListener('click', e => {
+                for (let i = 0; i < order.length; i++) {
+                    if (order[i].classList.contains('active')) {
+                        order[i].classList.remove('active');
+                        //order[i].style.height = 0;
+                    }
+                }
+            })
+        })
+    </script>
+</body>
+
+</html>

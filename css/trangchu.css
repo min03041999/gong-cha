@@ -1,0 +1,378 @@
+html, body {
+  height: 100%;
+}
+
+.navbar-inverse {
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ffffff;
+
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #ffffff;
+    margin-top: 20px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #f0ad4e;
+    border-color: #ffffff;
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 40px;
+    line-height: 20px;
+    margin: 20px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-family: "Myriad Pro",PTSansCaptionRegular, arial, helvetica, sans-serif;
+}
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+
+.navbar-inverse .navbar-nav>li>a {
+    font-size: 20px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    color: #ffffff;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: "Myriad Pro",PTSansCaptionRegular, arial, helvetica, sans-serif;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    text-decoration: underline;
+}
+
+.carousel1{
+    position: relative;
+    margin-top: 90px;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+
+.caption {
+    position: absolute;
+    right: 10%;
+    top: 10px;
+    left: 45%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-family: "Comic Sans", "Comic Sans MS", cursive;
+}
+
+.caption1 {
+    right: 10%;
+    left: 25%;
+}
+.box{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.box-title {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
+
+
+.button-radius{
+    position: relative;
+    border: 1px solid #eaeaea;
+    padding: 1px;
+    min-height: 34px;
+    background: #fff;
+    display: inline-block;
+    width: auto;
+    line-height: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin: 0;
+    color: #666666;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    border-radius: 17px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .button-radius .icon{
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    position: absolute;
+    left: 2%;
+    top: 2px;
+    overflow: hidden;
+  }
+  
+  .button-radius .icon:before{
+    font-family: 'FontAwesome';
+    content: "\f105";
+    font-size: 14px;
+    color: #fff;
+    width: 28px;
+    height: 28px;
+    background-color: #f0ad4e ;
+    border-radius: 90%;
+    text-align: center;
+    line-height: 26px;
+    float: left;
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+  }
+  
+  .button-radius.white{
+    border-color: #fff;
+    color: #fff;
+    background: transparent;
+  }
+  .button-radius.white .icon:before{
+    background: #fff;
+    color: #333;
+  }
+  
+  .button-radius:hover .icon{
+    left: 100%;
+    margin-left: -30px;
+  }
+  .button-radius:hover{
+    padding-left: 20px;
+    padding-right: 40px;
+  }
+  
+
+  .parallax {
+    /* The image used */
+    background-image: url("/Img/banner.jpg");
+    
+    /* Set a specific height */
+
+    min-height: 600px;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 700px;
+  }
+
+.title{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.title h1{
+    color: #f0ad4e;
+    font-family: 'Saira', sans-serif;
+}
+
+.title p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.btn-warning {
+  margin-top: 10px;
+  color: #f0ad4e;
+  background-color: #ffffff;
+  border-color: #f0ad4e;
+}
+
+.btn-warning:hover {
+  margin-top: 10px;
+  color: #ffffff;
+  background-color: #f0ad4e;
+  border-color: #f0ad4e;
+}
+
+.text h3 {
+  color: #f0ad4e;
+  margin-top: 0;
+  font-size: 36px;
+  font-weight: 600;
+  padding-top: 25px;
+}
+
+h5 a{
+  color: #f0ad4e;
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+h5 a:hover{
+  color: #f0ad4e;
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+hr.small {
+  border-top-color: #000;
+  width: 150px;
+  text-align: left;
+  align-items: left;
+  margin: 30px 0;
+}
+
+small, .small {
+  font-size: 85%;
+}
+
+.text {
+  padding: 30px 50px 30px 50px;
+  background-color: #f3dfad !important;
+}
+
+.text-margin {
+  margin-bottom: 50px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  color: #f0ad4e;
+  text-decoration: underline;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  color: #f0ad4e;
+  text-decoration: underline;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+.tabcontent h3{
+  color: #f0ad4e;
+}
+
+.footer{ 
+  width: 100%;
+
+}
+
+.footer h1{
+  position: absolute;
+  right: 20%;
+  top: 20px;
+  left: 20%;
+  text-align: center;
+  color:white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  font-family: "Myriad Pro",PTSansCaptionRegular, arial, helvetica, sans-serif;
+}
+
+.footer strong{
+  position: absolute;
+  right: 20%;
+  top: 90px;
+  left: 20%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.footer a{
+  position: relative;
+  padding-left: 5%;
+  top: 40px;
+  left: 0%;
+  font-size: 18px;
+  color:black;
+}
+
+.footer a:hover{
+  position: relative;
+  padding-left: 5%;
+  top: 40px;
+  left: 0%;
+  font-size: 18px;
+  color: #f0ad4e;
+  text-decoration: none !important;
+}
+
+.footer span{
+  position: relative;
+  padding-left: 5%;
+  font-size: 15px;
+  top: 50px;
+  left: 0%;
+  color: #f0ad4e;
+}
+
+.title-item {
+  padding: 0px 20px 0px 20px;
+  justify-content: center;
+}
+
+.link{
+  text-align: right;
+  padding-bottom: 15px;
+}
+
+.link a{
+  text-decoration: none;
+  color: #f0ad4e;
+}
+
+.link a:hover{
+  font-style: italic;
+  color: #f7c989;
+}
